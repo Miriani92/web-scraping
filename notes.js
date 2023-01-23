@@ -5,7 +5,7 @@ import puppeteer from "puppeteer";
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
 
-  await page.goto("https://developers.google.com/web/");
+  await page.goto("https://developersO.google.com/web/");
 
   // Type into search box.
   await page.type(".devsite-search-field", "Headless Chrome");
